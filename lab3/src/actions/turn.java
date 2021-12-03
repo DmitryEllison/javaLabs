@@ -2,8 +2,8 @@ package actions;
 
 import MyModule.Action;
 
-public class say extends Action {
-    public say(String name){
+public class turn extends Action {
+    public turn(String name){
         super(name);
     }
 }

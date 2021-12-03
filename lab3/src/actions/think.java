@@ -2,8 +2,8 @@ package actions;
 
 import MyModule.Action;
 
-public class think implements Action {
-    public think(){
-
+public class think extends Action {
+    public think(String name){
+        super(name);
     }
 }

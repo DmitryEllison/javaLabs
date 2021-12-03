@@ -1,6 +1,6 @@
 package MyModule;
 
-public class Phenomena extends Object {
+public class Phenomena extends MyObject {
     public Phenomena(String name){
         super(name);
     }

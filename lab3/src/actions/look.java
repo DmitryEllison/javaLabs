@@ -2,8 +2,8 @@ package actions;
 
 import MyModule.Action;
 
-public class look implements Action {
-    public look(){
-
+public class look extends Action {
+    public look(String name){
+        super(name);
     }
 }
